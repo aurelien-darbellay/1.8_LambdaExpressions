@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -6,6 +7,10 @@ public class Main {
 
         List<String> strings = Arrays.asList("hola","bla","bailar","comodín","erizo","lameculos","paladín");
         List<String> months = Arrays.asList("January","February","March","April","May","June","July","August","September","October","November","Decembre");
+        List<String> stringsAndMore = new ArrayList<>(strings);
+        stringsAndMore.add("2");
+        stringsAndMore.add("3");
+
 
         //Ex1
         System.out.println("\nEx1");
@@ -24,7 +29,7 @@ public class Main {
         months.stream().forEach(System.out::println);
 
         //Ex5
-        System.out.println("\nEx4");
+        System.out.println("\nEx5");
         PiValueProvider piProvider = new PiValueProvider() {
             @Override
             public double getPiValue() {
@@ -33,6 +38,20 @@ public class Main {
         };
         System.out.println(piProvider.getPiValue());
 
+        //Ex6
+        System.out.println("\nEx6");
+        stringsAndMore.sort((a,b)->a.length()-b.length());
+        stringsAndMore.forEach(System.out::println);
+
+        //Ex7
+        System.out.println("\nEx7");
+        stringsAndMore.sort((a,b)->b.length()-a.length());
+        stringsAndMore.forEach(System.out::println);
+
+        //Ex8
+        System.out.println("\nEx8");
+        Reversor reversor = (input)->new StringBuilder(input).reverse().toString();
+        System.out.println(stringsAndMore.getFirst() + " : " + reversor.reverse(stringsAndMore.getFirst()));
 
     }
 }

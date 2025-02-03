@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/1.8_LambdaExpressions.iml" filepath="$PROJECT_DIR$/1.8_LambdaExpressions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/N1/N1.iml" filepath="$PROJECT_DIR$/N1/N1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/N2/N2.iml" filepath="$PROJECT_DIR$/N2/N2.iml" />
     </modules>
   </component>
 </project>
