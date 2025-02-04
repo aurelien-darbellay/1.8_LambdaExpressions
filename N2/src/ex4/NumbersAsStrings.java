@@ -1,3 +1,5 @@
+package ex4;
+
 public class NumbersAsStrings {
     static public boolean isNumber(String str) {
         try {
