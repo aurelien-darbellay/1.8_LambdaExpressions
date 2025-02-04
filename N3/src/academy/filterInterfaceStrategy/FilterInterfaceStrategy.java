@@ -1,5 +1,6 @@
-package academy.filterInterfaceStrategy.filters;
+package academy.filterInterfaceStrategy;
 
+import academy.filterInterfaceStrategy.filters.*;
 import academy.generalUtils.Initialize;
 import academy.generalUtils.StudentPrinter;
 import academy.model.Student;

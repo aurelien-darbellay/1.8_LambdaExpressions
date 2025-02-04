@@ -1,4 +1,4 @@
-package academy.straightforwardStrategy.studentManagement;
+package academy.straightforwardStrategy;
 
 import academy.generalUtils.Initialize;
 import academy.generalUtils.StudentPrinter;

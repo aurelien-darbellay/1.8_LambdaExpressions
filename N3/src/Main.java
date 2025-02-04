@@ -1,6 +1,6 @@
 import academy.enhancedListStrategy.EnhancedListStrategy;
-import academy.filterInterfaceStrategy.filters.FilterInterfaceStrategy;
-import academy.straightforwardStrategy.studentManagement.StaightforwardStrategy;
+import academy.filterInterfaceStrategy.FilterInterfaceStrategy;
+import academy.straightforwardStrategy.StaightforwardStrategy;
 
 public class Main {
     public static void main(String[] args) {
